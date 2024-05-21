@@ -1,15 +1,17 @@
+
 Pod::Spec.new do |spec|
     spec.name              = 'MealzCore'
-    spec.version           = '1.0.0'
-    spec.summary           = 'Miam Core for iOS'
-    spec.homepage          = 'https://www.miam.tech'
+    spec.version           = '3.0.7'
+    spec.summary           = 'Mealz Core for iOS'
+    spec.homepage          = 'https://www.mealz.ai'
        spec.description           = <<-DESC
-       Miam Core SDK for iOS.
+       Mealz Core SDK for iOS.
        DESC
-    spec.author            = { 'Vincent Kergonna' => 'it@miam.tech' }
+    spec.author            = { 'Diarmuid McGonagle, Damien Walerowicz' => 'it@miam.tech' }
     spec.license           = { :type => 'GPLv3', :file => 'LICENSE' }
     spec.swift_versions = "5.8"
     spec.platform          = :ios, "12.0"
-    spec.source            = { :http => 'https://github.com/miamtech/releaseMealzCore/releases/download/1.0.0/mealzcore.zip' }
-    spec.ios.vendored_frameworks = 'mealzcore/mealzcore.xcframework'
+    spec.source            = { :http => 'https://github.com/Dwalero-org/MealzCoreRelease/raw/release/3.0.7/mealzcore.zip' }
+    spec.ios.vendored_frameworks = 'mealzcore.xcframework'
+#    spec.resource_bundles = {'MealzCore' => ['*.xcprivacy']}
 end
